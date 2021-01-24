@@ -20,3 +20,11 @@ print("We stopped running.")
 # When to use?
 # When you want to repeat something an undefined number of times.
 # For example, until a user tells you to stop or some other condition becomes False.
+
+
+0
+-1 -50
+1 100 10000
+
+while (0):
+    print ('Yes')

@@ -67,6 +67,44 @@ for j in range(1,6):
         if(i==3):
             print ('breaki')
             break
-    
+        
+
+
+
+
+while (False):
+    print("infinite")
+
+
+
+cnt = 1
+while (cnt<=10):
+    print(cnt)
+    cnt = cnt + 1
+
+
+cnt = 1
+while (True):
+    print(cnt)
+    cnt = cnt + 1
+    if (cnt>10):
+        break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
