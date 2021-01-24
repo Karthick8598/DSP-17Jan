@@ -434,6 +434,203 @@ t1[5] #IndexError: tuple index out of range
 t1[0] = 10 #TypeError: 'tuple' object does not support item assignment
 
 
+for i in t1:
+    print (i)
+
+
+t1.append(1) #AttributeError: 'tuple' object has no attribute 'append'
+
+t1.remove() #AttributeError: 'tuple' object has no attribute 'remove'
+
+del t1
+
+t1
+
+
+
+l1 = [100, 200, 300, 400]
+
+l1
+
+for i in l1:
+    print (i)
+
+
+for i in l1:
+    print (i)
+
+
+
+e1 = enumerate(l1)
+type(e1)
+e1
+
+for i in e1:
+    print(i)
+
+
+for i in e1:
+    print(i)
+
+l1
+
+e2 = enumerate(l1, 10)
+e2
+
+
+for i in e2:
+    print(i)
+
+
+le2 = list(e2)
+le2
+
+le2[0]
+
+
+
+for i,j in le2:
+    print (i)
+    print (j)
+
+
+
+e3 = enumerate (range(1000, 1100))
+
+list(e3)
+
+
+cnt =0
+for i in e3:
+    print (i)
+    cnt=cnt+1
+    if (cnt>=50):
+        break
+
+
+
+for i in e3:
+    print(i)
+
+
+
+l1=[]
+
+e4 =enumerate(range(0,5))
+
+cnt=0
+for i in e4:
+    cnt=cnt+1
+    l1.append(i[1])
+    if (cnt==3):
+        break
+
+l1
+
+for i in e4:
+    l1.append(i[1])
+
+l1
+
+
+
+
+
+#Frozen Sets
+
+#Not Changeble Type of Set
+
+fs1 = frozenset([1,2,3])
+
+s1 = {4,5,6}
+s1.pop()
+
+fs1.pop()
+
+s1.add(5)
+s1
+
+fs1.add(3)
+
+fs2 = frozenset([6,8,9])
+
+fs1.union(fs2)
+
+fs1.union(s1)
+
+
+
+
+# Zip
+
+name = [ "Virat", "Shikhar", "Ravi", "Rahul" ] 
+roll_no = [ 4, 1, 3, 2 ] 
+marks = [ 40, 50, 60, 70 ] 
+
+
+z1 = zip(name, roll_no, marks)
+
+z1
+
+list(z1)
+
+
+for i in z1:
+    print (i)
+
+
+
+
+# Zipped to normal
+
+
+z2 = zip(name, roll_no, marks)
+
+z2
+
+
+
+name1, rno1, marks1 = zip(*z2)
+name1
+rno1
+marks1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
