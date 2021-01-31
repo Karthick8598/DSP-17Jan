@@ -20,3 +20,5 @@ max_ele(l1)
 
 import numpy as np
 np.max(l1)
+
+a=10
