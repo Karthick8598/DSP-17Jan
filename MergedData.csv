@@ -1,0 +1,11 @@
+,rollno,name,gender,course,marks1,marks2,fee
+0,1,Student1,F,BTECH,67,80,1L
+1,2,Student2,M,BTECH,39,3,1L
+4,5,Student5,M,BTECH,54,11,1L
+7,8,Student8,F,BTECH,97,25,1L
+2,3,Student3,M,MBA,51,82,1.5L
+3,4,Student4,M,MBA,53,62,1.5L
+5,6,Student6,F,MBA,68,6,1.5L
+6,7,Student7,F,MBA,27,42,1.5L
+8,9,Student9,F,MBA,72,38,1.5L
+9,10,Student10,F,BBA,68,43,0.75L
